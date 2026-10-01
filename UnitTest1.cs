@@ -17,7 +17,8 @@ namespace SeleniumNUnitDemo
         public void Setup()
         {
             //setup the driver
-            driver = new ChromeDriver();
+            //driver = new ChromeDriver();
+            driver = new EdgeDriver();
             //open the driver and make sure the window is always maximized
             driver.Manage().Window.Maximize();
         }
